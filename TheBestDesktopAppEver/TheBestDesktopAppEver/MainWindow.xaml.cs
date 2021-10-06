@@ -31,9 +31,10 @@ namespace TheBestDesktopAppEver
         private void myButton_Click(object sender, RoutedEventArgs e)
         {
             myButton.Content = "Clicked";
+            myButton.Height = 100;
             //var win = new BlankWindow1();
             //BlankWindow1 win = new BlankWindow1();
-            BlankWindow1 win = new();
+            //BlankWindow1 win = new();
             //win.show();
 
         }
